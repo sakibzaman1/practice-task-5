@@ -8,7 +8,7 @@
 .head{
     width: 1600px;
     height: 809px;
-    background-image: url("/images/banner/banner2.png");
+    background-image: url("../images/banner/banner2.png");
 }
 .banner{
     display: flex;
@@ -54,6 +54,8 @@
 
 /* Main section styles */
 
+/* Section 1 styles */
+
 .main{
     background-color: white;
 }
@@ -63,9 +65,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .section1-img{
-    padding-right: 134px;
+    padding: 0px;
+    margin-right: 134px;
 }
 .section1-text h1{
     width: 288px;
@@ -91,3 +95,10 @@
 .section1-text ul li::before{
     content: '✓';
 }
+
+/* Section 2 styles */
+
+/* .section2-head{
+    display: flex;
+    justify-content: center;
+} */
